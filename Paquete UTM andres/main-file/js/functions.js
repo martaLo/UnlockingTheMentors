@@ -115,7 +115,7 @@ $("#submit_btn").click(function() {
           $(".side-menu").addClass("side-menu-active"), $("#close_side_menu").fadeIn(700)
        }), $("#close_side_menu").on("click", function () {
           $(".side-menu").removeClass("side-menu-active"), $(this).fadeOut(200), $(".pushwrap").removeClass("active")
-       }), $("#btn_sideNavClose").on("click", function () {
+       }), $("#btn_sideNavClose, .navbar-nav li").on("click", function () {
           $(".side-menu").removeClass("side-menu-active"), $("#close_side_menu").fadeOut(200), $(".pushwrap").removeClass("active")
        });
     }
