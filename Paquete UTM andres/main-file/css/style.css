@@ -290,7 +290,7 @@ blockquote.blockquote::before{
 }
 
 .bg-our-feature {
-	background-image: url(../images/covers2.png);
+	background-image: url(../images/covers2.jpg);
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: 50%;
