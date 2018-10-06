@@ -591,9 +591,9 @@ $("#submit_btn").click(function() {
          outof: "pause",
          visible_area: "90%"
       },
-      responsiveLevels: [4096, 1024, 778, 480],
-      gridwidth: [1140, 1024, 750, 480],
-      gridheight: [600, 500, 500, 350],
+      responsiveLevels: [4096, 1440, 800, 600],
+      gridwidth: [2500, 1440, 750, 480],
+      gridheight: [800, 700, 600, 575],
       lazyType: "none",
       parallax: {
          type: "mouse",

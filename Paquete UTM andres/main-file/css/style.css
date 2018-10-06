@@ -1647,28 +1647,35 @@ i::before,i::after{
       /*Revolution SLider*/
 /*-------------------------------*/
 
+
+.btn-slides {
+	font-size: 13px !important;
+    padding: 1rem 2.5rem !important;
+}
+
 .first-slide {
-	font-size: 5.5vw !important;
-	text-align: center;
+
+	font-size: 60px !important;
+	text-align: center; 
 	line-height: 120% !important;
+	white-space: normal !important;
 }
 
 .second-slide {
-	font-size:35px !important;
-	text-align: right !important;
+	font-size:50px !important;
 	line-height: 120% !important;
+	white-space: normal !important;
 }
 
 .third-slide {
-	font-size:32px !important;
-	text-align: left !important;
+	font-size:60px !important;
 	line-height: 120% !important;
+	white-space: normal !important;
 }
 
 .fourth-slide {
-	font-size:25px !important;
-	text-align: right !important;
-	line-height: 160% !important;
+	font-size:60px !important;
+	line-height: 120% !important;
 	white-space: normal !important;
 }
 
@@ -1682,9 +1689,28 @@ i::before,i::after{
 	font-weight: 300;
 }
 
+
+@media (max-width: 1440px){
+	.first-slide {
+
+	font-size: 50px !important;
+}
+	
+	  .second-slide {
+	font-size:45px !important;
+}
+}
+
+@media (max-width: 992px){
+	.first-slide {
+
+	font-size: 40px !important;
+}
+}
+
 @media (max-width: 768px){
   .second-slide {
-	font-size:20px !important;
+	font-size:45px !important;
 }
 	
 	.third-slide {
@@ -1694,25 +1720,54 @@ i::before,i::after{
 	
 	.fourth-slide {
 	font-size:20px !important;
+}
+}
+
+
+@media (max-width: 992px) and (orientation: landscape) {
+	
+	.tp-bullets {
+		display: none;
+	}
+	
+	img.logo-main {
+    transform: scale(0.7);
+}
+
+		.first-slide {
+	font-size: 30px !important;
+}
+
+	 .second-slide {
+	font-size:30px !important;
 }
 }
 
 @media (max-width: 480px){
+	
+		.first-slide {
+
+	font-size: 35px !important;
+}
+	
   .second-slide {
-	font-size:16px !important;
-	  text-align: center !important;
+	font-size:30px !important;
 }
 	
 	.third-slide {
-	font-size:16px !important;
-	text-align: center !important;
+	font-size:30px !important;
 }
 
 
 	.fourth-slide {
 	font-size:16px !important;
-	text-align: center !important;
 }
+}
+
+@media (max-width: 321px){
+  img.logo-main  {
+    transform: scale(0.8) translateY(-40px);
+	}
 }
 
 
