@@ -94,7 +94,7 @@ h6{
     font-size: 0.875rem;
 }
 p{
-   font-size: 14px;
+   font-size: 16px;
 }
 p.title {
    font-size: 1rem;
@@ -1873,6 +1873,50 @@ i::before,i::after{
 .half-section .imgtwo{
     background: url("../images/split-img2.jpg") no-repeat;   
 }
+
+
+.first-image {
+    padding-top: 7.5rem;
+}
+
+
+@media (min-width: 1690px){
+	.half-section .row {
+	padding:0 20rem;
+}
+	
+	.half-section .row .image {
+	padding:0;
+}
+
+	.half-section .row .heading-title {
+	    padding-top: 10.5rem;
+}
+	
+}
+
+@media (min-width: 1440px) and (max-width: 1689px) {
+	.half-section .row {
+	padding:0;
+}
+	
+	.half-section .row .image {
+	padding:0;
+}
+
+	.half-section .row .heading-title {
+	    padding-top: 10.5rem;
+}
+	
+}
+
+
+@media (max-width: 970px){
+   	.first-image {
+    padding-top: 0;
+}
+}
+
 @media (max-width: 768px){
    .split-box{
       padding-left: 15px;
@@ -1893,8 +1937,26 @@ i::before,i::after{
 	height:120px !important; 
 	margin:70px;
 }
+	
+		.half-section .row .heading-title {
+	    padding-top: 0;
+}
+	
+		.half-section .row .image {
+	padding:0;
+}
+	
+	#half-sections {
+	padding: 7.5rem 0;
+}
+	
+
+
 
 }
+
+
+
 
 
 /*-------------------------------*/
@@ -4375,7 +4437,7 @@ footer .copyrights > a:focus {
       font-size: 1.125rem;
    }
    p {
-      font-size: 14px;
+      font-size: 16px;
    }
    .heading-title > span{
       font-size: 1rem;

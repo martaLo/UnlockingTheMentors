@@ -179,7 +179,7 @@ $("#submit_btn").click(function() {
    });
 
    function fiximBlocks() {
-      if (windowsize < 768) {
+      if (windowsize < 970) {
          $(".half-section").each(function () {
             $(".img-container", this).insertAfter($(".split-box > .heading-title h2", this));
          });
