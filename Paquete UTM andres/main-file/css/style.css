@@ -2402,10 +2402,7 @@ i::before,i::after{
 
 @media (max-width: 768px) {
 	
-			.team-member {
-	width:100%;
-	margin:20px 0;
-}
+
 	
    .team-box {
       padding: 20px 20px 85px 20px;
@@ -2417,6 +2414,13 @@ i::before,i::after{
       transform: translateY(49%);
    }
  
+}
+
+@media (max-width: 480px) { 
+	.team-member {
+	width:100%;
+	margin:20px 0;
+}
 }
 
 /*-------------------------------*/
@@ -2532,13 +2536,13 @@ i::before,i::after{
 .dark_overlay .overlay {
    background: rgba(33,35,49, .9);
 }
-.cbp-item:hover .overlay,
-.cbp-item:focus .overlay {
+.mentor:hover .overlay,
+.mentor:focus .overlay {
 	opacity: 1; visibility: visible;
    -webkit-border-radius: 0;
    border-radius: 0;
 }
-.cbp-item:hover .overlay{
+.mentor:hover .overlay{
    opacity: 1; visibility: visible;
 }
 .overlay > .plus{
@@ -2647,10 +2651,48 @@ i::before,i::after{
 }
 
 
+
+
 /*-------------------------------*/
     /*Gallery ends */
 /*-------------------------------*/
 
+
+
+
+/*-------------------------------*/
+    /*MENTORS */
+/*-------------------------------*/
+
+.mentor {
+	width:calc(33% - 4px);
+	margin:2px;
+	float:left;
+	position: relative;
+}
+
+.mentor img {
+	width:100%;
+}
+
+@media (max-width: 992px) {
+.mentor {
+	width:calc(50% - 4px);
+}
+
+}
+
+@media (max-width: 480px) {
+.mentor {
+	width:calc(100% - 4px);
+}
+
+}
+
+
+/*-------------------------------*/
+    /*MENTORS ends */
+/*-------------------------------*/
 
 /*-------------------------------*/
     /* Mobile Apps & Features */
