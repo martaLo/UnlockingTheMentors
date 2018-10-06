@@ -36,6 +36,7 @@ p, .heading-title > span, .process-wrapp li > .pro-step,
 .bgimage {
      background-image: url("../images/testimonials.jpg");
 	 background-repeat: no-repeat;
+	background-size:cover;
 }
 .extradark-color {
     color: #212331;

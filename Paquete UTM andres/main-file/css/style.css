@@ -3796,6 +3796,12 @@ ul.rounded li::before {
 	box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 575px) {
+	#our-blog .image {
+		margin-bottom:40px
+	}
+}
+
 /*-------------------------------*/
     /* Our Blog ends*/
 /*-------------------------------*/
