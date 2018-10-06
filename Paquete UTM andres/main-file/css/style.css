@@ -1342,9 +1342,11 @@ i::before,i::after{
    }
 }
 @media (max-width: 1024px) {
-   .sidemenu_btn {
+   /*
+	.sidemenu_btn {
       position: relative;
    }
+	*/
    .center-brand .navbar-brand{
       width: 100px; 
    }
