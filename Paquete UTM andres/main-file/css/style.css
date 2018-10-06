@@ -189,7 +189,6 @@ blockquote.blockquote::before{
 .heading_space {
     margin-bottom: 4.125rem;
 
-	text-align: left;
 }
 .bottom5 {
     margin-bottom: 5px;
@@ -338,7 +337,6 @@ section{
 }
 .heading-title h2{
    font-weight: 300;
-	text-align: left;
 }
 
 .center-title h2 {
@@ -1874,6 +1872,9 @@ i::before,i::after{
     background: url("../images/split-img2.jpg") no-repeat;   
 }
 
+#half-sections .heading-title h2, #half-sections .heading-title p {
+	text-align:left;
+}
 
 .first-image {
     padding-top: 7.5rem;
@@ -1924,7 +1925,12 @@ i::before,i::after{
    }
    .half-section .img-container {
       margin-bottom: 25px;
+	   
    }
+	
+	#half-sections .heading-title h2, #half-sections .heading-title p {
+	text-align:center;
+}
 }
 @media screen and (max-width: 767px) {
   #twocopies .half-section:first-of-type .container-fluid {
