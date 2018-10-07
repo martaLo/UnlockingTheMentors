@@ -3883,6 +3883,55 @@ ul.rounded li::before {
     /* Our Blog ends*/
 /*-------------------------------*/
 
+
+/*-------------------------------*/
+    /* VIDEO BG*/
+/*-------------------------------*/
+
+#video-bg p {
+	padding-right:80px;
+}
+
+
+@media screen and (max-width: 1024px) {
+		#video-bg p {
+			padding-right:25px;
+		}
+
+}
+
+@media screen and (max-width: 768px) {
+		#video-bg p {
+			padding-right:10px;
+		}
+
+}
+
+@media screen and (max-width: 400px) {
+		#video-bg p {
+			padding:0 30px;
+		}
+
+}
+
+
+@media screen and (max-width: 480px) {
+	#our-feature p {
+	padding: 0 15px;
+}
+
+
+}
+
+
+
+
+
+
+/*-------------------------------*/
+    /* VIDEO BG ends*/
+/*-------------------------------*/
+
 /*-------------------------------*/
     /* Ccntact US*/
 /*-------------------------------*/
