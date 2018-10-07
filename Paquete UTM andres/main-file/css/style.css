@@ -1655,7 +1655,7 @@ i::before,i::after{
 
 .first-slide {
 
-	font-size: 60px !important;
+	font-size: 100px !important;
 	text-align: center; 
 	line-height: 120% !important;
 	white-space: normal !important;
@@ -1693,7 +1693,7 @@ i::before,i::after{
 @media (max-width: 1440px){
 	.first-slide {
 
-	font-size: 50px !important;
+	font-size: 70px !important;
 }
 	
 	  .second-slide {
@@ -1701,10 +1701,18 @@ i::before,i::after{
 }
 }
 
+@media (max-width: 1024px){
+	.first-slide {
+
+	font-size: 60px !important;
+}
+	
+}
+
 @media (max-width: 992px){
 	.first-slide {
 
-	font-size: 40px !important;
+	font-size: 60px !important;
 }
 }
 
@@ -1735,7 +1743,7 @@ i::before,i::after{
 }
 
 		.first-slide {
-	font-size: 30px !important;
+	font-size: 42px !important;
 }
 
 	 .second-slide {
@@ -1743,11 +1751,23 @@ i::before,i::after{
 }
 }
 
+
+@media (max-width: 575px) and (orientation: landscape) {
+	
+		.first-slide {
+	font-size: 31px !important;
+	}
+			  .second-slide {
+	font-size:22px !important;
+}
+	
+}
+
 @media (max-width: 480px){
 	
 		.first-slide {
 
-	font-size: 35px !important;
+	font-size: 42px !important;
 }
 	
   .second-slide {
